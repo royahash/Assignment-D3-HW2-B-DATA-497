@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: "Source Sans 3", Arial, sans-serif;
+  background: #f5f7fb;
+  color: #172033;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 18px;
+}
+
+.chart-card {
+  width: min(920px, 100%);
+  background: white;
+  border-radius: 22px;
+  padding: 30px;
+  box-shadow: 0 18px 45px rgba(34, 45, 72, 0.14);
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+p {
+  max-width: 720px;
+  margin: 0 0 22px;
+  font-size: 17px;
+  color: #4d5a72;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.axis path,
+.axis line {
+  stroke: #b7c0d1;
+}
+
+.axis text {
+  fill: #5c667a;
+  font-size: 13px;
+}
+
+.grid line {
+  stroke: #e3e8f2;
+  stroke-dasharray: 4 4;
+}
+
+.grid path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.site-dot {
+  stroke: white;
+  stroke-width: 2;
+}
+
+.chart-title {
+  font-size: 22px;
+  font-weight: 700;
+  fill: #172033;
+}
+
+.axis-label,
+.line-label {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.source-note {
+  margin-top: 18px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #6d778c;
+}
